@@ -5,6 +5,7 @@
 // @author       Pan
 // @homepage    https://github.com/PlayfulPan/ScorchySlotsPlayer
 // @downloadURL https://raw.githubusercontent.com/PlayfulPan/ScorchySlotsPlayer/refs/heads/main/ScorchySlotsPlayer.js
+// @updateURL https://raw.githubusercontent.com/PlayfulPan/ScorchySlotsPlayer/refs/heads/main/ScorchySlotsPlayer.js
 // @match        https://www.neopets.com/games/slots.phtml*
 // @grant GM_setValue
 // @grant GM_getValue
