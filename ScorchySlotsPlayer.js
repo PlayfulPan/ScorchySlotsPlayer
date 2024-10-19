@@ -1,9 +1,10 @@
 // ==UserScript==
-// @name         Scorchy Slots Current Slot Names Extractor
-// @namespace    http://tampermonkey.net/
-// @version      1.4
-// @description  Extracts the current slot names from the Scorchy Slots game on Neopets and returns them as an array.
-// @author
+// @name         Scorchy Slots Player
+// @version      1.0
+// @description  Automatically plays Scorchy Slots until you turn it off or your pet gets tired
+// @author       Pan
+// @homepage    https://github.com/PlayfulPan/ScorchySlotsPlayer
+// @downloadURL https://raw.githubusercontent.com/PlayfulPan/ScorchySlotsPlayer/refs/heads/main/ScorchySlotsPlayer.js
 // @match        https://www.neopets.com/games/slots.phtml*
 // @grant GM_setValue
 // @grant GM_getValue
