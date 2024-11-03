@@ -129,6 +129,21 @@
         return symbolMapping[src] || 'Unknown';
     }
 
+
+    // Write a function which only holds Bag of Gold symbols
+    function holdBagOfGold() {
+        const slotNames = getCurrentSlotNames(); // Get current slot names
+
+        const holdIndices = [];
+        slotNames.forEach((symbol, index) => {
+            if (symbol === 'Bag of Gold') {
+                holdIndices.push(index);
+            }
+        });
+
+        return holdIndices;
+    }
+
     function decideHoldCheckboxesBasedOnRanking() {
         const slotNames = getCurrentSlotNames(); // Get current slot names
 
@@ -216,7 +231,7 @@
         if (isRunning) {
             const checkboxes = document.querySelectorAll('input[type="checkbox"][name^="hold"]');
             if (checkboxes.length > 0) {
-                const holdIndices = decideHoldCheckboxesBasedOnRanking();
+                const holdIndices = holdBagOfGold();
                 console.log(holdIndices);
                 holdIndices.forEach((i) => {
                     checkboxes[i].checked = true;
